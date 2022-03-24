@@ -1,0 +1,27 @@
+Package:  SQoptimizR 
+Title: A Package for Parameter Estimation for the crop model SiriusQuality 
+Version: 0.0.0.9000
+Authors@R: 
+    person(given = "Aafaf",
+           family = "Arharas",
+           role = c("aut", "cre"),
+           email = "aafaf.arharas@inrae.fr",
+           comment = c(ORCID = "YOUR-ORCID-ID"))
+Description: SQoptimizR allows users to perform parameter estimation for SiriusQuality using methods from CroptimizR
+License: GPL-3
+Encoding: UTF-8
+LazyData: true
+Roxygen: list(markdown = TRUE)
+RoxygenNote: 7.1.1
+Imports: 
+    CroptimizR,
+    doParallel,
+    dplyr,
+    foreach,
+    openxlsx,
+    parallel,
+    stats,
+    stringr,
+    tibble,
+    utils,
+    XML
